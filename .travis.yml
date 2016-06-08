@@ -1,5 +1,6 @@
 language: java
-script:
+after_install:
+ - java -version
  - gradle check
  - gradle assemble
  - gradle build
