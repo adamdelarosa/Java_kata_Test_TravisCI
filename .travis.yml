@@ -1,5 +1,6 @@
 language: java
 script:
+ - gradle check
  - gradle assemble
  - gradle build
  - java -jar build/libs/kataCI.jar
